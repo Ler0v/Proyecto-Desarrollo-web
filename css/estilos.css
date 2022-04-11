@@ -1,16 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100;400;700&display=swap');
+
+
 body {
-    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/03d6d1a5-7133-460b-a65f-b403f180281d/d5vi8b0-9925c151-97d4-4318-8a23-af91c8f561d5.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzAzZDZkMWE1LTcxMzMtNDYwYi1hNjVmLWI0MDNmMTgwMjgxZFwvZDV2aThiMC05OTI1YzE1MS05N2Q0LTQzMTgtOGEyMy1hZjkxYzhmNTYxZDUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.SfgmKdiABXpQz-k-iP3SigdD7kEKyW751j81SvoZD3Y');
     background-size: cover;
-    color: white;
+    background-image: linear-gradient(to top, red , yellow);
 }
+
 
 table{
-    border: 2px solid black;
+    border: 2px solid rgb(192, 20, 20);
 }
 
+
 .title{
-    border:  5px solid white;
+    border:  5px solid rgb(156, 20, 20);
     text-align: center;
     margin: 30px;
     padding: 30px;
 }
+
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'MuseoModerno';
+    animation: "animate__wobble";
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 700px;
+}
+@media screen and (max-width: 1024px) {
+	.contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        background-color: aqua;
+    }
+}
+
+
+
+   

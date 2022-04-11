@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="./css/estilos.css">
+    <link
+    	rel="stylesheet"
+    	href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <title>Game House</title>
 </head>
 <body>
     <div>
-        <h1 class="title">Game House</h1>
+        <div class="wow animate__animated animate__fadeInDownBig">
+            <h1 class="title">Game House</h1>
+        </div>
         <nav>
             <ul>
                 <a href="index.html">Principal</a>
@@ -20,41 +27,44 @@
             </ul>
         </nav>
     </div>
-    <div>
+    <div class="wow animate__animated animate__backInUp">
         <form class="formulario" action="submit">
-            <div>
+            <div  class="contacto">
                 <label for="nombre">Nombre:</label>	
                 <input type="text" name="nom" placeholder="Nombre" />
                 <label for="apellido">Apellido:</label>	
                 <input type="text" name="ap" placeholder="Apellido" />
                 <label for="email">E-Mail</label>	
                 <input type="text" name="em" placeholder="Mail"/>
-            </div>
-            <div>
                 <select name="gen" id="1">
                     <option value="1">Hombre</option>
                     <option value="1">Mujer</option>
                     <option value="1">Prefiero no especificar</option>
                 </select>
-            </div>
-            <div>
                 <p>Acepta términos y condiciones</p>
                 <input type="checkbox" name="acepta" value="1" />
-            </div>
-           <div>
                <label for="msj" placeholder="">Mensaje:</label>
-                <textarea name="msj" id="1" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <textarea name="msj" id="1" cols="40" rows="10" placeholder="Mensaje"></textarea>
                 <button>Enviar</button>
                 <button>Borrar</button>
            </div>
         </form>
     </div>
-    <div>
-        <footer>
-            <h3>
-                Seguinos en nuestras redes!
-            </h3>
-        </footer>
-    </div>
+    <div class="card text-center letraDescripcion">
+		<div class="card-header">
+		  Tu Tienda de videojuegos!
+		</div>
+		<div class="card-body">
+		  <h5 class="card-title">GameHouse</h5>
+		  <p class="card-text"></p>
+		</div>
+		<div class="card-footer text-muted">
+		  GameHouse© 2022
+		</div>
+	  </div>
+    <script src="js/wow.min.js"></script>
+	<script>
+	new WOW().init();
+	</script>
 </body>
 </html>
