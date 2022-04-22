@@ -3,7 +3,7 @@
 
 body {
     background-size: cover;
-    background-image: linear-gradient(to top, red , yellow);
+    background-color: aliceblue;
 }
 
 
@@ -46,6 +46,11 @@ h1{
         background-color: aqua;
     }
 }
+
+.card{
+
+}
+
 
 
 
