@@ -3,11 +3,11 @@ body {
   background-size: cover;
   background-color: #ffffff; }
 
-table {
-  border: 2px solid #c01414; }
 
 .title {
   border: 5px solid #c01414;
+  border-radius: 10px;
+  border-width: 10px;
   text-align: center;
   margin: 30px;
   padding: 30px; }
@@ -26,6 +26,19 @@ h1 {
   align-items: center;
   justify-content: space-between;
   height: 700px; }
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: #c01414;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.navB{
+  color: #ffffff;
+  font-size: 20px;
+}
 
 @media screen and (max-width: 768px) {
   .contacto {
