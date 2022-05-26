@@ -121,4 +121,8 @@ h1 {
   color: white;
 }
 
-
+.subT {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
