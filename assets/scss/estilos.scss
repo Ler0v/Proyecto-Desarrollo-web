@@ -9,6 +9,13 @@ body {
     background-color: $bodyColor;
 }
 
+.typeLight{
+  font-weight: 300;
+}
+
+.typeBold{
+  font-weight: 700;
+}
 
 table{
     border: 2px solid $detailColor
