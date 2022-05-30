@@ -4,6 +4,14 @@ body {
   background-color: #ffffff;
 }
 
+.typeLight {
+  font-weight: 300;
+}
+
+.typeBold {
+  font-weight: 700;
+}
+
 table {
   border: 2px solid #c01414;
 }
